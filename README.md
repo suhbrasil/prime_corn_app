@@ -10,16 +10,9 @@ Before starting, ensure the following tools are installed:
 
 1. **Node.js**: Required for running the project. [Download here](https://nodejs.org).
 2. **Expo CLI**: A command-line tool to develop and test React Native apps. Install globally:
-   
-bash
-   npm install -g expo-cli
-
 3. **EAS CLI**: Used for building APKs. Install globally:
    ```bash
    npm install -g eas-cli
-
-4. **Android Studio**: Required to use an Android Emulator or build APKs. [Download here](https://developer.android.com/studio).
-
 ---
 
 ## Setup
