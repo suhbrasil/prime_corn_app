@@ -1,0 +1,332 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gustavo_adame.DoneWithIt"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:10:3-75
+11-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:10:20-73
+12
+13    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:2:3-85
+13-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:2:27-83
+14    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:3:3-83
+14-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:3:27-81
+15
+16    <uses-permission
+16-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:4:3-65
+17        android:name="android.permission.BLUETOOTH"
+17-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:4:20-63
+18        android:maxSdkVersion="30" />
+18-->[com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:12:9-35
+19    <uses-permission
+19-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:5:3-71
+20        android:name="android.permission.BLUETOOTH_ADMIN"
+20-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:5:20-69
+21        android:maxSdkVersion="30" />
+21-->[com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:15:9-35
+22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+22-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:6:3-73
+22-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:6:20-71
+23    <uses-permission
+23-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:7:3-91
+24        android:name="android.permission.BLUETOOTH_SCAN"
+24-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:7:20-68
+25        android:usesPermissionFlags="neverForLocation" />
+25-->[com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:24:9-55
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:8:3-64
+26-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:8:20-62
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:9:3-77
+27-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:9:20-75
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:11:3-63
+28-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:11:20-61
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:12:3-78
+29-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:12:20-76
+30
+31    <uses-feature
+31-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:13:3-87
+32        android:name="android.hardware.bluetooth_le"
+32-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:13:17-61
+33        android:required="true" />
+33-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:13:62-85
+34
+35    <queries>
+35-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:14:3-20:13
+36        <intent>
+36-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:15:5-19:14
+37            <action android:name="android.intent.action.VIEW" />
+37-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:7-58
+37-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:15-56
+38
+39            <category android:name="android.intent.category.BROWSABLE" />
+39-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:7-67
+39-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:17-65
+40
+41            <data android:scheme="https" />
+41-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:7-37
+41-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:13-35
+42        </intent>
+43
+44        <package android:name="host.exp.exponent" /> <!-- Query open documents -->
+44-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-53
+44-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-50
+45        <intent>
+45-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+46            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+46-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+46-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-76
+47        </intent>
+48    </queries>
+49
+50    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+50-->[:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+50-->[:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
+51
+52    <permission
+52-->[androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+53        android:name="com.gustavo_adame.DoneWithIt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.gustavo_adame.DoneWithIt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+57
+58    <application
+58-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:3-40:17
+59        android:name="com.gustavo_adame.DoneWithIt.MainApplication"
+59-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:16-47
+60        android:allowBackup="true"
+60-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:162-188
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+62        android:debuggable="true"
+63        android:extractNativeLibs="false"
+64        android:icon="@mipmap/ic_launcher"
+64-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:81-115
+65        android:label="@string/app_name"
+65-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:48-80
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:116-161
+67        android:theme="@style/AppTheme"
+67-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:189-220
+68        android:usesCleartextTraffic="true" >
+68-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:6:18-53
+69        <meta-data
+69-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:22:5-83
+70            android:name="expo.modules.updates.ENABLED"
+70-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:22:16-59
+71            android:value="false" />
+71-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:22:60-81
+72        <meta-data
+72-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:23:5-119
+73            android:name="expo.modules.updates.EXPO_RUNTIME_VERSION"
+73-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:23:16-72
+74            android:value="@string/expo_runtime_version" />
+74-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:23:73-117
+75        <meta-data
+75-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:24:5-105
+76            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+76-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:24:16-80
+77            android:value="ALWAYS" />
+77-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:24:81-103
+78        <meta-data
+78-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:25:5-99
+79            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+79-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:25:16-79
+80            android:value="0" />
+80-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:25:80-97
+81
+82        <activity
+82-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:5-38:16
+83            android:name="com.gustavo_adame.DoneWithIt.MainActivity"
+83-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:15-43
+84            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+84-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:44-134
+85            android:exported="true"
+85-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:256-279
+86            android:launchMode="singleTask"
+86-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:135-166
+87            android:screenOrientation="portrait"
+87-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:280-316
+88            android:theme="@style/Theme.App.SplashScreen"
+88-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:210-255
+89            android:windowSoftInputMode="adjustResize" >
+89-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:167-209
+90            <intent-filter>
+90-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:27:7-30:23
+91                <action android:name="android.intent.action.MAIN" />
+91-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:28:9-60
+91-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:28:17-58
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:29:9-68
+93-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:29:19-66
+94            </intent-filter>
+95            <intent-filter>
+95-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:31:7-37:23
+96                <action android:name="android.intent.action.VIEW" />
+96-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:7-58
+96-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:15-56
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:9-67
+98-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:19-65
+99                <category android:name="android.intent.category.BROWSABLE" />
+99-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:7-67
+99-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:17-65
+100
+101                <data android:scheme="com.gustavo_adame.DoneWithIt" />
+101-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:7-37
+101-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:13-35
+102                <data android:scheme="exp+donewithit" />
+102-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:7-37
+102-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:13-35
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:39:5-106
+106            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+106-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:39:15-79
+107            android:exported="false" />
+107-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:39:80-104
+108        <activity
+108-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-25:20
+109            android:name="expo.modules.devlauncher.launcher.DevLauncherActivity"
+109-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-81
+110            android:exported="true"
+110-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-36
+111            android:launchMode="singleTask"
+111-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+112            android:theme="@style/Theme.DevLauncher.LauncherActivity" >
+112-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-70
+113            <intent-filter>
+113-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-24:29
+114                <action android:name="android.intent.action.VIEW" />
+114-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:7-58
+114-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:15-56
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:9-67
+116-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:19-65
+117                <category android:name="android.intent.category.BROWSABLE" />
+117-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:7-67
+117-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:17-65
+118
+119                <data android:scheme="expo-dev-launcher" />
+119-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:7-37
+119-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:13-35
+120            </intent-filter>
+121        </activity>
+122        <activity
+122-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-29:70
+123            android:name="expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity"
+123-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-93
+124            android:screenOrientation="portrait"
+124-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-49
+125            android:theme="@style/Theme.DevLauncher.ErrorActivity" />
+125-->[:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-67
+126        <activity
+126-->[:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-21:20
+127            android:name="expo.modules.devmenu.DevMenuActivity"
+127-->[:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-64
+128            android:exported="true"
+128-->[:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-36
+129            android:launchMode="singleTask"
+129-->[:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-44
+130            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" >
+130-->[:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-75
+131            <intent-filter>
+131-->[:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-20:29
+132                <action android:name="android.intent.action.VIEW" />
+132-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:7-58
+132-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:15-56
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:9-67
+134-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:19-65
+135                <category android:name="android.intent.category.BROWSABLE" />
+135-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:7-67
+135-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:17-65
+136
+137                <data android:scheme="expo-dev-menu" />
+137-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:7-37
+137-->C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:13-35
+138            </intent-filter>
+139        </activity>
+140
+141        <provider
+141-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-30:20
+142            android:name="expo.modules.filesystem.FileSystemFileProvider"
+142-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+143            android:authorities="com.gustavo_adame.DoneWithIt.FileSystemFileProvider"
+143-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-74
+144            android:exported="false"
+144-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+145            android:grantUriPermissions="true" >
+145-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-47
+146            <meta-data
+146-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+148                android:resource="@xml/file_system_provider_paths" />
+148-->[:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+149        </provider>
+150
+151        <meta-data
+151-->[:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:89
+152            android:name="org.unimodules.core.AppLoader#react-native-headless"
+152-->[:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-79
+153            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+153-->[:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-86
+154        <meta-data
+154-->[:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:45
+155            android:name="com.facebook.soloader.enabled"
+155-->[:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-57
+156            android:value="true" />
+156-->[:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-33
+157
+158        <provider
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+159            android:name="androidx.startup.InitializationProvider"
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+160            android:authorities="com.gustavo_adame.DoneWithIt.androidx-startup"
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+161            android:exported="false" >
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+162            <meta-data
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+163                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+164                android:value="androidx.startup" />
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+165            <meta-data
+165-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+166                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+166-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+167                android:value="androidx.startup" />
+167-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+168        </provider>
+169
+170        <service
+170-->[androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+171            android:name="androidx.room.MultiInstanceInvalidationService"
+171-->[androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+172            android:directBootAware="true"
+172-->[androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+173            android:exported="false" />
+173-->[androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+174    </application>
+175
+176</manifest>
