@@ -17,14 +17,116 @@ function WelcomeScreen({ navigation }) {
   const [refreshing, setRefreshing] = useState(false);
   const [processes, setProcesses] = useState([]);
 
-  console.log(processes);
+  const isDevelopment = false; // Altere para 'false' em produção
+  // const mockProcesses = [
+  //   {
+  //     "processId": "Process_001",
+  //     "classificationSummary": {
+  //         "Pure": 0,
+  //         "Broken": 0,
+  //         "Silkcut": 0,
+  //         "Unknown": 1
+  //     },
+  //     "timestamp": "2024-12-01T17:50:21Z"
+  // },
+  // {
+  //     "processId": "Process_002",
+  //     "classificationSummary": {
+  //         "Pure": 2,
+  //         "Broken": 0,
+  //         "Silkcut": 0,
+  //         "Unknown": 0
+  //     },
+  //     "timestamp": "2024-12-01T17:51:46Z"
+  // },
+  // {
+  //     "processId": "Process_003",
+  //     "classificationSummary": {
+  //         "Pure": 0,
+  //         "Broken": 0,
+  //         "Silkcut": 0,
+  //         "Unknown": 1
+  //     },
+  //     "timestamp": "2024-12-01T17:52:39Z"
+  // },
+  // {
+  //     "processId": "Process_004",
+  //     "classificationSummary": {
+  //         "Pure": 0,
+  //         "Broken": 1,
+  //         "Silkcut": 0,
+  //         "Unknown": 0
+  //     },
+  //     "timestamp": "2024-12-01T17:53:30Z"
+  // },
+  // {
+  //     "processId": "Process_005",
+  //     "classificationSummary": {
+  //         "Pure": 0,
+  //         "Broken": 1,
+  //         "Silkcut": 3,
+  //         "Unknown": 1
+  //     },
+  //     "timestamp": "2024-12-01T17:55:29Z"
+  // },
+  // {
+  //     "processId": "Process_006",
+  //     "classificationSummary": {
+  //         "Pure": 0,
+  //         "Broken": 1,
+  //         "Silkcut": 0,
+  //         "Unknown": 1
+  //     },
+  //     "timestamp": "2024-12-01T18:13:02Z"
+  // },
+  // {
+  //     "processId": "Process_007",
+  //     "classificationSummary": {
+  //         "Pure": 2,
+  //         "Broken": 0,
+  //         "Silkcut": 0,
+  //         "Unknown": 0
+  //     },
+  //     "timestamp": "2024-12-01T18:22:23Z"
+  // },
+  // {
+  //     "processId": "Process_008",
+  //     "classificationSummary": {
+  //         "Pure": 1,
+  //         "Broken": 0,
+  //         "Silkcut": 0,
+  //         "Unknown": 0
+  //     },
+  //     "timestamp": "2024-12-01T18:31:33Z"
+  // },
+  // {
+  //     "processId": "Process_009",
+  //     "classificationSummary": {
+  //         "Pure": 1,
+  //         "Broken": 1,
+  //         "Silkcut": 0,
+  //         "Unknown": 0
+  //     },
+  //     "timestamp": "2024-12-01T18:40:34Z"
+  // },
+  // {
+  //     "processId": "Process_010",
+  //     "classificationSummary": {
+  //         "Pure": 0,
+  //         "Broken": 1,
+  //         "Silkcut": 0,
+  //         "Unknown": 1
+  //     },
+  // ];
+
+  // console.log(mockProcesses);
 
   const fetchData = async () => {
     try {
       const fetchedProcesses = await AsyncStorage.getItem("processes");
       if (fetchedProcesses) {
         const parsedProcesses = JSON.parse(fetchedProcesses);
-
+        console.log(parsedProcesses);
         const array = parsedProcesses
           .map((item) => {
             try {
@@ -32,12 +134,11 @@ function WelcomeScreen({ navigation }) {
                 typeof item === "string" ? JSON.parse(item) : item;
 
               // Extract the classification summary into an array
-              const { Pure, Broken, Discolored, Silkcut, Unknown } =
+              const { Pure, Broken, Silkcut, Unknown } =
                 parsedItem.classificationSummary;
               const arrayClassificationSummary = [
                 Pure,
                 Broken,
-                Discolored,
                 Silkcut,
                 Unknown,
               ];
@@ -80,42 +181,113 @@ function WelcomeScreen({ navigation }) {
     });
   };
 
+  // useEffect(() => {
+  //   const loadProcesses = async () => {
+  //     await fetchData();
+  //   };
+  //   loadProcesses(); // Call the async function
+  // }, []); // Empty dependency array to run only once
+
   useEffect(() => {
     const loadProcesses = async () => {
-      await fetchData();
+      if (isDevelopment) {
+        await AsyncStorage.setItem("processes", JSON.stringify(mockProcesses));
+        setProcesses(mockProcesses);
+      } else {
+        await fetchData(); // Método que busca os dados reais
+      }
     };
-    loadProcesses(); // Call the async function
-  }, []); // Empty dependency array to run only once
+
+    loadProcesses();
+  }, []);
+
+  // const RenderItem = ({ item }) => {
+  //   const totalSeeds =
+  //     item.classificationSummary[0] +
+  //     item.classificationSummary[1] +
+  //     item.classificationSummary[2] +
+  //     item.classificationSummary[3] +
+  //     item.classificationSummary[4];
+  //   const irregularSeeds =
+  //     item.classificationSummary[1] +
+  //     item.classificationSummary[2] +
+  //     item.classificationSummary[3] +
+  //     item.classificationSummary[4];
+
+  //   return (
+  //     <View style={styles.card}>
+  //       {/* Data */}
+  //       <Text style={styles.date}>{item.timestamp}</Text>
+  //       <View style={styles.divider} />
+
+  //       {/* Total de sementes */}
+  //       <Text style={styles.totalSeeds}>Total Seeds: {totalSeeds}</Text>
+  //       <View style={styles.divider} />
+
+  //       {/* Regular e irregular seeds */}
+  //       <View style={styles.regularIrregularContainer}>
+  //         <View style={styles.border}>
+  //           <Text style={styles.regular}>
+  //             Regular seeds:{" "}
+  //             <Text style={styles.light}>{item.classificationSummary[0]}%</Text>
+  //           </Text>
+  //         </View>
+  //         <Text style={styles.irregular}>
+  //           Irregular seeds:{" "}
+  //           <Text style={styles.light}>{irregularSeeds}%</Text>
+  //         </Text>
+  //       </View>
+  //       <View style={styles.divider} />
+
+  //       {/* Botão de relatório */}
+  //       <TouchableOpacity
+  //         style={styles.reportButton}
+  //         onPress={() => navigation.navigate("Report", { item })}
+  //       >
+  //         <Text style={styles.reportButtonText}>View Report</Text>
+  //       </TouchableOpacity>
+  //     </View>
+  //   );
+  // };
 
   const RenderItem = ({ item }) => {
     const totalSeeds =
       item.classificationSummary[0] +
       item.classificationSummary[1] +
       item.classificationSummary[2] +
-      item.classificationSummary[3] +
-      item.classificationSummary[4];
-    const irregularSeeds =
+      item.classificationSummary[3];
+    const irregularSeedsValue =
       item.classificationSummary[1] +
       item.classificationSummary[2] +
-      item.classificationSummary[3] +
-      item.classificationSummary[4];
+      item.classificationSummary[3];
+    const irregularSeeds = ((irregularSeedsValue / totalSeeds) * 100).toFixed(
+      0
+    );
+    const pureSeeds = (
+      (item.classificationSummary[0] / totalSeeds) *
+      100
+    ).toFixed(0);
+
+    const formatDate = (timestamp) => {
+      const date = new Date(timestamp);
+      const month = String(date.getMonth() + 1).padStart(2, "0"); // Months are 0-based
+      const day = String(date.getDate()).padStart(2, "0");
+      const year = date.getFullYear();
+      return `${month}/${day}/${year}`;
+    };
 
     return (
       <View style={styles.card}>
-        {/* Data */}
-        <Text style={styles.date}>{item.timestamp}</Text>
+        <Text style={styles.date}>{formatDate(item.timestamp)}</Text>
         <View style={styles.divider} />
 
-        {/* Total de sementes */}
         <Text style={styles.totalSeeds}>Total Seeds: {totalSeeds}</Text>
         <View style={styles.divider} />
 
-        {/* Regular e irregular seeds */}
         <View style={styles.regularIrregularContainer}>
           <View style={styles.border}>
             <Text style={styles.regular}>
-              Regular seeds:{" "}
-              <Text style={styles.light}>{item.classificationSummary[0]}%</Text>
+              Regular seeds: <Text style={styles.light}>{pureSeeds}%</Text>
             </Text>
           </View>
           <Text style={styles.irregular}>
@@ -124,7 +296,6 @@ function WelcomeScreen({ navigation }) {
         </View>
         <View style={styles.divider} />
 
-        {/* Botão de relatório */}
         <TouchableOpacity
           style={styles.reportButton}
           onPress={() => navigation.navigate("Report", { item })}
@@ -136,47 +307,30 @@ function WelcomeScreen({ navigation }) {
   };
 
   return (
-    <>
+    <View style={styles.container}>
       <Image
         source={require("../assets/prime_corn_logo.png")}
         style={styles.image}
       />
+
       <FlatList
         data={processes}
-        renderItem={RenderItem}
-        keyExtractor={item.processId}
+        renderItem={({ item }) => <RenderItem item={item} />}
+        keyExtractor={(item) => item.processId}
         contentContainerStyle={styles.listContainer}
         refreshing={refreshing}
         onRefresh={handleRefresh}
       />
+
       <TouchableOpacity
         style={styles.syncButton}
         onPress={() => navigation.navigate("Sync")}
       >
         <Text style={styles.reportButtonText}>Sync</Text>
       </TouchableOpacity>
+
       <StatusBar style="auto" />
-      {/* TODO: FLATLIST ITERATING OVER THE PROCESSES */}
-      {/* THIS IS JUST FOR DEBUG */}
-      {/* CREATE A COMPONENT FOR THE INFOS AND ONDE IT IS CLICKED IT IS REDIRECTED TO THE PROCESS PAGE WITH THE DATA AS PARAM */}
-      {/* <FlatList
-        data={processes}
-        renderItem={({ item }) => (
-          <View>
-            <Text>{item.processId}</Text>
-            <Text>{item.timestamp}</Text>
-            <Text>Pure: {item.classificationSummary[0]}</Text>
-            <Text>Broken: {item.classificationSummary[1]}</Text>
-            <Text>Discolored: {item.classificationSummary[2]}</Text>
-            <Text>Silkcut: {item.classificationSummary[3]}</Text>
-            <Text>Unknown: {item.classificationSummary[4]}</Text>
-            <Text>{"\n"}</Text>
-          </View>
-        )}
-        refreshing={refreshing}
-        onRefresh={handleRefresh}
-      /> */}
-    </>
+    </View>
   );
 }
 
@@ -198,7 +352,7 @@ const styles = StyleSheet.create({
   },
   card: {
     width: 320,
-    height: 210,
+    height: 220,
     backgroundColor: "#fff",
     borderRadius: 8,
     padding: 16,
@@ -260,19 +414,20 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
   reportButton: {
-    backgroundColor: "#E0BBE4",
+    backgroundColor: "#d170fa",
     borderRadius: 8,
     paddingVertical: 10,
     alignItems: "center",
     marginTop: 10,
   },
   syncButton: {
-    backgroundColor: "#E0BBE4",
+    backgroundColor: "#d170fa",
     borderRadius: 8,
     paddingVertical: 10,
     paddingHorizontal: 70,
     alignItems: "center",
     marginTop: 10,
+    marginBottom: 10,
   },
   reportButtonText: {
     color: "#fff",

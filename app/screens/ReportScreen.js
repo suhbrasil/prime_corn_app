@@ -5,19 +5,13 @@ import { PieChart } from "react-native-chart-kit";
 
 function ReportScreen({ route }) {
   const { item } = route.params;
+  console.log("Received item:", item);
 
   const chartData = [
     {
       name: "Silkcut",
-      value: item.classificationSummary[3],
-      color: "#FF6384",
-      legendFontColor: "#333",
-      legendFontSize: 14,
-    },
-    {
-      name: "Discolored",
       value: item.classificationSummary[2],
-      color: "#36A2EB",
+      color: "#FF6384",
       legendFontColor: "#333",
       legendFontSize: 14,
     },
@@ -28,13 +22,33 @@ function ReportScreen({ route }) {
       legendFontColor: "#333",
       legendFontSize: 14,
     },
+    {
+      name: "Unknown",
+      value: item.classificationSummary[3],
+      color: "#4CAF50",
+      legendFontColor: "#333",
+      legendFontSize: 14,
+    },
   ];
-
-  const irregularSeeds =
+  const totalSeeds =
+    item.classificationSummary[0] +
     item.classificationSummary[1] +
     item.classificationSummary[2] +
-    item.classificationSummary[3] +
-    item.classificationSummary[4];
+    item.classificationSummary[3];
+
+  const irregularSeedsValue =
+    item.classificationSummary[1] +
+    item.classificationSummary[2] +
+    item.classificationSummary[3];
+  const irregularSeeds = ((irregularSeedsValue / totalSeeds) * 100).toFixed(0);
+
+  const formatDate = (timestamp) => {
+    const date = new Date(timestamp);
+    const month = String(date.getMonth() + 1).padStart(2, "0"); // Months are 0-based
+    const day = String(date.getDate()).padStart(2, "0");
+    const year = date.getFullYear();
+    return `${month}/${day}/${year}`;
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -42,7 +56,7 @@ function ReportScreen({ route }) {
         source={require("../assets/prime_corn_logo.png")}
         style={styles.image}
       />
-      <Text style={styles.title}>Report {item.timestamp}</Text>
+      <Text style={styles.title}>Report {formatDate(item.timestamp)}</Text>
       <Text style={styles.subtitle}>{irregularSeeds}% irregular seeds</Text>
       <View style={styles.chartContainer}>
         <PieChart

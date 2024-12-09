@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { StatusBar } from "expo-status-bar";
 import {
   StyleSheet,
   SafeAreaView,
@@ -59,6 +60,10 @@ function SyncScreen({ navigation }) {
       const parsedProcesses = JSON.parse(fetchedProcesses);
       // push every new activity to the parsedActivities array
       for (const newProcess of newProcessesArray) {
+        while (parsedProcesses.length >= 100) {
+          console.log("Deleting oldest process:", parsedProcesses[0]);
+          parsedProcesses.shift(); // Remove the oldest entry (first element)
+        }
         // inserd id to the new activity based on the length of the parsedActivities array
         // newProcess.id = parsedProcesses.length;
         console.log("New Process -> ", newProcess);
@@ -96,11 +101,11 @@ function SyncScreen({ navigation }) {
       <View style={styles}>
         {connectedDevice ? (
           <>
-            <ActivityIndicator size="large" color="Pink" />
+            <ActivityIndicator size="large" color="#d170fa" />
             <Text style={styles}>Syncing...</Text>
           </>
         ) : (
-          <Text style={styles}>Sync to your last activity</Text>
+          <Text style={styles}>Find the machine to sync...</Text>
         )}
       </View>
 
@@ -109,7 +114,9 @@ function SyncScreen({ navigation }) {
         style={styles.syncButton}
       >
         <Text style={styles}>
-          {connectedDevice ? "Disconnect" : "Search bike module"}
+          <Text style={styles.syncButtonText}>
+            {connectedDevice ? "Disconnect" : "Connect"}
+          </Text>
         </Text>
       </TouchableOpacity>
 
@@ -135,13 +142,20 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   syncButton: {
-    backgroundColor: "pink",
+    backgroundColor: "#d170fa",
     justifyContent: "center",
     alignItems: "center",
     height: 50,
+    width: 100,
     marginHorizontal: 20,
+    marginTop: 50,
     marginBottom: 50,
     borderRadius: 8,
+  },
+  syncButtonText: {
+    color: "white",
+    fontSize: 16,
+    fontWeight: "600",
   },
 });
 
