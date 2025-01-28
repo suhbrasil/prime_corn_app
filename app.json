@@ -1,49 +1,55 @@
 {
   "expo": {
-      "name": "DoneWithIt",
-      "slug": "DoneWithIt",
-      "version": "1.0.0",
-      "orientation": "portrait",
-      "icon": "./app/assets/icon.png",
-      "userInterfaceStyle": "light",
-      "plugins": [
-          [
-              "react-native-ble-plx",
-              {
-                  "isBackgroundEnabled": true,
-                  "modes": [
-                      "peripheral",
-                      "central"
-                  ],
-                  "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices"
-              }
-          ]
-      ],
-      "splash": {
-          "image": "./app/assets/splash.png",
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-      },
-      "ios": {
-          "supportsTablet": true
-      },
-      "android": {
-          "adaptiveIcon": {
-              "foregroundImage": "./app/assets/adaptive-icon.png",
-              "backgroundColor": "#ffffff"
-          },
-          "permissions": [
-              "android.permission.BLUETOOTH",
-              "android.permission.BLUETOOTH_ADMIN",
-              "android.permission.BLUETOOTH_CONNECT"
+    "name": "DoneWithIt",
+    "slug": "DoneWithIt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": [
+            "peripheral",
+            "central"
           ],
-          "package": "com.gustavo_adame.DoneWithIt"
+          "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eduardoximenes.DoneWithIt"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       },
-      "web": {
-          "favicon": "./app/assets/favicon.png"
-      },
-      "runtimeVersion": {
-          "policy": "appVersion"
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ],
+      "package": "com.gustavo_adame.DoneWithIt"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9111296d-c208-434b-8c5f-a845553c1f01"
       }
+    }
   }
 }

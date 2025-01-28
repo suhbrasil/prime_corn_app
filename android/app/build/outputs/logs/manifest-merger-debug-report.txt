@@ -1,0 +1,703 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:expo] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-ble-plx] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-ble-plx\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-asset] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-asset\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-constants] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-constants\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-dev-client] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-client\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
+MERGED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [:expo-device] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-device\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:expo-eas-client] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-eas-client\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-33:12
+MERGED from [:expo-font] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-font\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-manifests] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-manifests\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-json-utils] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-json-utils\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-keep-awake] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-structured-headers] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-structured-headers\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-dev-menu-interface] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu-interface\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-updates-interface] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates-interface\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-18:12
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ca051408178074cbe1479957c0ea1a28\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ad9173a2070b3e3642aff008a754a22b\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c01f35d19338567fae8ebd710fc04da2\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\52b6a746d9d4d9f59e814425a32eabd3\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\8c411e1c8dd67d3dfdab3d5be42f462b\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\eca29264f3424703844a38e37736fdf6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\d91747d0af2bc5a135c59efff7293d92\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\d9cb6d9d57e44e3f87ba340c6ceeb80b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\suzib\.gradle\caches\8.8\transforms\8eee188054695c19afbf8a6b38bbec0b\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2436e193c42d054701bc41a7296b2706\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\e7adcf6f0491f48f71165f86a3e546df\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\dbcf339637f8eadf7511b199390eb826\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\4cf576d3875fe069a7baee342819fbca\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1c0541ae141cbc9991b5eacc860a750f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\cb7fecaefed5a6c81d09663628c8f115\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\96a35ae876451e708c885f06190bc693\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\b331b2a3ef25ef0cef0ac426276a4d5c\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\8c4688db70d996f9462cff94dec6edfd\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-gif:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\fe9c69d7619633889565906cff9393d7\transformed\jetified-animated-gif-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-base:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2fa827e33ce657af399eedd1617f3f5a\transformed\jetified-animated-base-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-drawable:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2c79628d9088789ff0d99ff2625ed9d1\transformed\jetified-animated-drawable-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-options:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\7604ac00edb17e5e93b36b1cf6f7bf7a\transformed\jetified-vito-options-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\94a20403f50a3174011210981bfdb85c\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\6d1f71d190d76149ba56fdf104c39742\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2fc49f78fd9089ad4215afec5cfcc44c\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\294d971e6b3301a1ee120ee1fdae205d\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\0405fcd96bf095e02a7474508e651169\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\82b467d950c0bc0341a78e0aa8279993\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\356b0f4e627c72202878b40771fad5c2\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\c4ec9112d7dc776653ea314a1bef1b78\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5e5dd1d2983f7e92283bdc4708a3f4c4\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:webpsupport:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\a2338b054b57a5359e36f7c6ee107a4f\transformed\jetified-webpsupport-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\e4d9ca2a85a7d2a6562986ca47186527\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\f92e678411d365b4526354f351d662fe\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\6095ddae783734d2c30db6179c9051f0\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\586429de62818a3f1551dbc3594d9fcb\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\ade5c0c7726cb4bee6f2f52a600ac665\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\03ae029971621fb297f8ded1ebd7437c\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9f595bdde61fcf73795f25a9922a20c3\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5a13a8f7063d4cd9ec7676e21c22036a\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1f476381f17b8aaf9253227219bcbea7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\85c2c934240ca5abd5637ab4ebd75729\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1153326090f9764d62963de978e6f37e\transformed\browser-1.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\45257abc14fb8c517bf61d701ee0e76f\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\b1baf8e4738287367ef449a2ab32ef27\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7daa8137b13a5c53042968761489b4b9\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5c3fb4b7b32f2acf58f0980f6fa0156f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7b322dfa19d81bf8d70ef02e3e6f6fbd\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\e5ce5cef534b3af3971e81041910f740\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\35f8e5e4a1097a0342a391f641e93fb3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\fc6594444ad3bcd18dab4a36784e9b10\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\920a13a174ea0849406f3e5e37658d2e\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\26a867ac02feadee56c918a5c1c84594\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2a1faead0aa138a9058458a7478d3680\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:vito-renderer:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\f3368ce18d0444e4c55472fcd0b575f4\transformed\jetified-vito-renderer-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.react:hermes-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\5575cc0c7a6642d20c00916ed54ad27c\transformed\jetified-hermes-android-0.74.5-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\47b7e439339982a10e6ce4e51a9b92f7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\a70316287ee7b2840811ad2f63979b36\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\3d3af4fc52b426f12d0f32edbfe55fb7\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\afbec74be1a44f270b0e88121384bee4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:8.2.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ee1aa835093c0c03b1816f82dac50125\transformed\jetified-viewbinding-8.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\d9ecf8f85af236618b7d46fefadaf059\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5a96143c8e4dffc5472862ab6588f7ed\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2530fea0c6ae1071a6d004a40cc4a267\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c427606e4caf3a76b6df88e6a93b6555\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\29c9e64c7303074d7cf403df9f3cc07e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\suzib\.gradle\caches\8.8\transforms\6c253688e01f15470fec1477f87b85de\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7004d80b08d7809269c398cea8fb1c6e\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\b1d86b6066190c43a467ddcb4c2e50a2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\add8cc27234ed04fab458a423956cfb8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\75ba4c95eec07147426228e9e94cce05\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\suzib\.gradle\caches\8.8\transforms\be583118675061c6eff5fdf5b5d57bd1\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9fb0ef8ea80742361a4cb020d7cf2cc4\transformed\jetified-fbjni-0.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:1:70-116
+	android:versionCode
+		INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:2:3-85
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:18:5-88
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:2:27-83
+uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:3:3-83
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:19:5-86
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:3:27-81
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:4:3-65
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:10:5-12:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:4:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:5:3-71
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:13:5-15:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:13:5-15:38
+	android:maxSdkVersion
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:5:20-69
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:6:3-73
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:21:5-76
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:6:20-71
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:7:3-91
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:22:5-25:31
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:22:5-25:31
+	android:usesPermissionFlags
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:24:9-55
+	tools:targetApi
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:7:69-89
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:7:20-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:8:3-64
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:8:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:9:3-77
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-80
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:9:20-75
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:10:3-75
+MERGED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:10:3-75
+MERGED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:10:3-75
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:16:5-78
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:10:20-73
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:11:3-63
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:11:20-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:12:3-78
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:12:20-76
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:13:3-87
+	android:required
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:13:62-85
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:13:17-61
+queries
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:14:3-20:13
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-9:15
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-9:15
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:15
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:15:5-19:14
+action#android.intent.action.VIEW
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:7-58
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:16:15-56
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:7-67
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:17:17-65
+data
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:7-37
+	android:scheme
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:18:13-35
+application
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:3-40:17
+MERGED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:3-40:17
+MERGED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:3-40:17
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:6:5-162
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-30:19
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-30:19
+MERGED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-22:19
+MERGED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-22:19
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-16:19
+MERGED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-16:19
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ad9173a2070b3e3642aff008a754a22b\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ad9173a2070b3e3642aff008a754a22b\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c01f35d19338567fae8ebd710fc04da2\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c01f35d19338567fae8ebd710fc04da2\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\eca29264f3424703844a38e37736fdf6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\eca29264f3424703844a38e37736fdf6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\d9ecf8f85af236618b7d46fefadaf059\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\d9ecf8f85af236618b7d46fefadaf059\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:48-80
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:48-80
+	tools:ignore
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:6:75-114
+	android:roundIcon
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:116-161
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:116-161
+	tools:targetApi
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:6:54-74
+	android:icon
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:81-115
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:81-115
+	android:allowBackup
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:162-188
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:162-188
+	android:theme
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:189-220
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:189-220
+	tools:replace
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:6:115-159
+	android:usesCleartextTraffic
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml:6:18-53
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:16-47
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:21:16-47
+meta-data#expo.modules.updates.ENABLED
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:22:5-83
+	android:value
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:22:60-81
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:22:16-59
+meta-data#expo.modules.updates.EXPO_RUNTIME_VERSION
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:23:5-119
+	android:value
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:23:73-117
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:23:16-72
+meta-data#expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:24:5-105
+	android:value
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:24:81-103
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:24:16-80
+meta-data#expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:25:5-99
+	android:value
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:25:80-97
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:25:16-79
+activity#com.gustavo_adame.DoneWithIt.MainActivity
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:5-38:16
+	android:screenOrientation
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:280-316
+	android:launchMode
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:135-166
+	android:windowSoftInputMode
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:167-209
+	android:exported
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:256-279
+	android:configChanges
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:44-134
+	android:theme
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:210-255
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:26:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:27:7-30:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:28:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:29:9-68
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:29:19-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.gustavo_adame.DoneWithIt+data:scheme:exp+donewithit
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:31:7-37:23
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:9-67
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:33:19-65
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:39:5-106
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:19:9-21:40
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:39:80-104
+	android:name
+		ADDED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\main\AndroidManifest.xml:39:15-79
+uses-sdk
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+MERGED from [:expo] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-ble-plx] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-ble-plx\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-ble-plx] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-ble-plx\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-asset] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-asset\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-asset] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-asset\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-constants\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-constants\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-client] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-client\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-client] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-client\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-device] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-device\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-device] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-device\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-eas-client] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-eas-client\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-eas-client] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-eas-client\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:expo-font] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-font\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-font] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-font\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-manifests] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-manifests\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-manifests] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-manifests\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-json-utils] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-json-utils\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-json-utils] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-json-utils\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-structured-headers] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-structured-headers\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-structured-headers] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-structured-headers\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-menu-interface] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu-interface\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-dev-menu-interface] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu-interface\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-updates-interface] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates-interface\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-updates-interface] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates-interface\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\95e9238d6fb32e6ef311fce806fdc839\transformed\jetified-react-android-0.74.5-debug\AndroidManifest.xml:10:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ca051408178074cbe1479957c0ea1a28\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ca051408178074cbe1479957c0ea1a28\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ad9173a2070b3e3642aff008a754a22b\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ad9173a2070b3e3642aff008a754a22b\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c01f35d19338567fae8ebd710fc04da2\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c01f35d19338567fae8ebd710fc04da2\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\52b6a746d9d4d9f59e814425a32eabd3\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\52b6a746d9d4d9f59e814425a32eabd3\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\8c411e1c8dd67d3dfdab3d5be42f462b\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\8c411e1c8dd67d3dfdab3d5be42f462b\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\eca29264f3424703844a38e37736fdf6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\eca29264f3424703844a38e37736fdf6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\d91747d0af2bc5a135c59efff7293d92\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\d91747d0af2bc5a135c59efff7293d92\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\d9cb6d9d57e44e3f87ba340c6ceeb80b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\d9cb6d9d57e44e3f87ba340c6ceeb80b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\suzib\.gradle\caches\8.8\transforms\8eee188054695c19afbf8a6b38bbec0b\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\suzib\.gradle\caches\8.8\transforms\8eee188054695c19afbf8a6b38bbec0b\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2436e193c42d054701bc41a7296b2706\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2436e193c42d054701bc41a7296b2706\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\e7adcf6f0491f48f71165f86a3e546df\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\e7adcf6f0491f48f71165f86a3e546df\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\dbcf339637f8eadf7511b199390eb826\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\dbcf339637f8eadf7511b199390eb826\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\4cf576d3875fe069a7baee342819fbca\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\4cf576d3875fe069a7baee342819fbca\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1c0541ae141cbc9991b5eacc860a750f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1c0541ae141cbc9991b5eacc860a750f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\cb7fecaefed5a6c81d09663628c8f115\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\cb7fecaefed5a6c81d09663628c8f115\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\96a35ae876451e708c885f06190bc693\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\96a35ae876451e708c885f06190bc693\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\b331b2a3ef25ef0cef0ac426276a4d5c\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\b331b2a3ef25ef0cef0ac426276a4d5c\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\8c4688db70d996f9462cff94dec6edfd\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\8c4688db70d996f9462cff94dec6edfd\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-gif:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\fe9c69d7619633889565906cff9393d7\transformed\jetified-animated-gif-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-gif:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\fe9c69d7619633889565906cff9393d7\transformed\jetified-animated-gif-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2fa827e33ce657af399eedd1617f3f5a\transformed\jetified-animated-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2fa827e33ce657af399eedd1617f3f5a\transformed\jetified-animated-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2c79628d9088789ff0d99ff2625ed9d1\transformed\jetified-animated-drawable-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2c79628d9088789ff0d99ff2625ed9d1\transformed\jetified-animated-drawable-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\7604ac00edb17e5e93b36b1cf6f7bf7a\transformed\jetified-vito-options-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\7604ac00edb17e5e93b36b1cf6f7bf7a\transformed\jetified-vito-options-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\94a20403f50a3174011210981bfdb85c\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\94a20403f50a3174011210981bfdb85c\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\6d1f71d190d76149ba56fdf104c39742\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\6d1f71d190d76149ba56fdf104c39742\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2fc49f78fd9089ad4215afec5cfcc44c\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\2fc49f78fd9089ad4215afec5cfcc44c\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\294d971e6b3301a1ee120ee1fdae205d\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\294d971e6b3301a1ee120ee1fdae205d\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\0405fcd96bf095e02a7474508e651169\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\0405fcd96bf095e02a7474508e651169\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\82b467d950c0bc0341a78e0aa8279993\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\82b467d950c0bc0341a78e0aa8279993\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\356b0f4e627c72202878b40771fad5c2\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\356b0f4e627c72202878b40771fad5c2\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\c4ec9112d7dc776653ea314a1bef1b78\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\c4ec9112d7dc776653ea314a1bef1b78\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5e5dd1d2983f7e92283bdc4708a3f4c4\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5e5dd1d2983f7e92283bdc4708a3f4c4\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:webpsupport:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\a2338b054b57a5359e36f7c6ee107a4f\transformed\jetified-webpsupport-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\a2338b054b57a5359e36f7c6ee107a4f\transformed\jetified-webpsupport-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\e4d9ca2a85a7d2a6562986ca47186527\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\e4d9ca2a85a7d2a6562986ca47186527\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\f92e678411d365b4526354f351d662fe\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\f92e678411d365b4526354f351d662fe\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\6095ddae783734d2c30db6179c9051f0\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\6095ddae783734d2c30db6179c9051f0\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\586429de62818a3f1551dbc3594d9fcb\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\586429de62818a3f1551dbc3594d9fcb\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\ade5c0c7726cb4bee6f2f52a600ac665\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\ade5c0c7726cb4bee6f2f52a600ac665\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\03ae029971621fb297f8ded1ebd7437c\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\03ae029971621fb297f8ded1ebd7437c\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9f595bdde61fcf73795f25a9922a20c3\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9f595bdde61fcf73795f25a9922a20c3\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5a13a8f7063d4cd9ec7676e21c22036a\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5a13a8f7063d4cd9ec7676e21c22036a\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1f476381f17b8aaf9253227219bcbea7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1f476381f17b8aaf9253227219bcbea7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\85c2c934240ca5abd5637ab4ebd75729\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\85c2c934240ca5abd5637ab4ebd75729\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1153326090f9764d62963de978e6f37e\transformed\browser-1.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\1153326090f9764d62963de978e6f37e\transformed\browser-1.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\45257abc14fb8c517bf61d701ee0e76f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\45257abc14fb8c517bf61d701ee0e76f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\b1baf8e4738287367ef449a2ab32ef27\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\b1baf8e4738287367ef449a2ab32ef27\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7daa8137b13a5c53042968761489b4b9\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7daa8137b13a5c53042968761489b4b9\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5c3fb4b7b32f2acf58f0980f6fa0156f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5c3fb4b7b32f2acf58f0980f6fa0156f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7b322dfa19d81bf8d70ef02e3e6f6fbd\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7b322dfa19d81bf8d70ef02e3e6f6fbd\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\e5ce5cef534b3af3971e81041910f740\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\e5ce5cef534b3af3971e81041910f740\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\35f8e5e4a1097a0342a391f641e93fb3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\suzib\.gradle\caches\8.8\transforms\35f8e5e4a1097a0342a391f641e93fb3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\fc6594444ad3bcd18dab4a36784e9b10\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\fc6594444ad3bcd18dab4a36784e9b10\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\920a13a174ea0849406f3e5e37658d2e\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\920a13a174ea0849406f3e5e37658d2e\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\26a867ac02feadee56c918a5c1c84594\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\26a867ac02feadee56c918a5c1c84594\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2a1faead0aa138a9058458a7478d3680\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2a1faead0aa138a9058458a7478d3680\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\f3368ce18d0444e4c55472fcd0b575f4\transformed\jetified-vito-renderer-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.1.3] C:\Users\suzib\.gradle\caches\8.8\transforms\f3368ce18d0444e4c55472fcd0b575f4\transformed\jetified-vito-renderer-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [com.facebook.react:hermes-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\5575cc0c7a6642d20c00916ed54ad27c\transformed\jetified-hermes-android-0.74.5-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.74.5] C:\Users\suzib\.gradle\caches\8.8\transforms\5575cc0c7a6642d20c00916ed54ad27c\transformed\jetified-hermes-android-0.74.5-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] C:\Users\suzib\.gradle\caches\8.8\transforms\dc8c34dc0e320d0c982734db2d8d8f2b\transformed\jetified-rxandroidble-1.17.2\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\47b7e439339982a10e6ce4e51a9b92f7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\47b7e439339982a10e6ce4e51a9b92f7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\a70316287ee7b2840811ad2f63979b36\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\a70316287ee7b2840811ad2f63979b36\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\3d3af4fc52b426f12d0f32edbfe55fb7\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\3d3af4fc52b426f12d0f32edbfe55fb7\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\afbec74be1a44f270b0e88121384bee4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\afbec74be1a44f270b0e88121384bee4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ee1aa835093c0c03b1816f82dac50125\transformed\jetified-viewbinding-8.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.1] C:\Users\suzib\.gradle\caches\8.8\transforms\ee1aa835093c0c03b1816f82dac50125\transformed\jetified-viewbinding-8.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\d9ecf8f85af236618b7d46fefadaf059\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\d9ecf8f85af236618b7d46fefadaf059\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5a96143c8e4dffc5472862ab6588f7ed\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\5a96143c8e4dffc5472862ab6588f7ed\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2530fea0c6ae1071a6d004a40cc4a267\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2530fea0c6ae1071a6d004a40cc4a267\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c427606e4caf3a76b6df88e6a93b6555\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\suzib\.gradle\caches\8.8\transforms\c427606e4caf3a76b6df88e6a93b6555\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\29c9e64c7303074d7cf403df9f3cc07e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\29c9e64c7303074d7cf403df9f3cc07e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\suzib\.gradle\caches\8.8\transforms\6c253688e01f15470fec1477f87b85de\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\suzib\.gradle\caches\8.8\transforms\6c253688e01f15470fec1477f87b85de\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7004d80b08d7809269c398cea8fb1c6e\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\suzib\.gradle\caches\8.8\transforms\7004d80b08d7809269c398cea8fb1c6e\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\b1d86b6066190c43a467ddcb4c2e50a2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\b1d86b6066190c43a467ddcb4c2e50a2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\add8cc27234ed04fab458a423956cfb8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\add8cc27234ed04fab458a423956cfb8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\75ba4c95eec07147426228e9e94cce05\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\suzib\.gradle\caches\8.8\transforms\75ba4c95eec07147426228e9e94cce05\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\suzib\.gradle\caches\8.8\transforms\be583118675061c6eff5fdf5b5d57bd1\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\suzib\.gradle\caches\8.8\transforms\be583118675061c6eff5fdf5b5d57bd1\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9fb0ef8ea80742361a4cb020d7cf2cc4\transformed\jetified-fbjni-0.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9fb0ef8ea80742361a4cb020d7cf2cc4\transformed\jetified-fbjni-0.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\suzib\PrimeCorn\prime_corn_app\android\app\src\debug\AndroidManifest.xml
+package#host.exp.exponent
+ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-53
+	android:name
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-50
+activity#expo.modules.devlauncher.launcher.DevLauncherActivity
+ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-25:20
+	android:launchMode
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+	android:exported
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-36
+	android:theme
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-70
+	android:name
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-81
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:expo-dev-launcher
+ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-24:29
+activity#expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity
+ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-29:70
+	android:screenOrientation
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-49
+	android:theme
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-67
+	android:name
+		ADDED from [:expo-dev-launcher] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-93
+activity#expo.modules.devmenu.DevMenuActivity
+ADDED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-21:20
+	android:launchMode
+		ADDED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-44
+	android:exported
+		ADDED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-36
+	android:theme
+		ADDED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-75
+	android:name
+		ADDED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-64
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:expo-dev-menu
+ADDED from [:expo-dev-menu] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-dev-menu\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-20:29
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:expo-updates] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-76
+intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+action#android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+	android:name
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-76
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-30:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+	android:resource
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+	android:name
+		ADDED from [:expo-file-system] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:89
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-86
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-79
+meta-data#com.facebook.soloader.enabled
+ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-15:45
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:12:9-14:37
+MERGED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:12:9-14:37
+	tools:replace
+		ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-42
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-33
+		REJECTED from [com.facebook.soloader:soloader:0.11.0] C:\Users\suzib\.gradle\caches\8.8\transforms\31f88b0e310706abbc86c5fc41f58ef3\transformed\jetified-soloader-0.11.0\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\suzib\PrimeCorn\prime_corn_app\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-57
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\suzib\.gradle\caches\8.8\transforms\7811d731d8339af7fd003b636e7a9379\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\suzib\.gradle\caches\8.8\transforms\2dce943e0ebabf95b5d5aad8aaeeab3b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.gustavo_adame.DoneWithIt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.gustavo_adame.DoneWithIt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\suzib\.gradle\caches\8.8\transforms\9c6fd932edd616c210fb05fe493124ae\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\suzib\.gradle\caches\8.8\transforms\1857cf5b0fb007ee2ea6dcb990e7ff1d\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\suzib\.gradle\caches\8.8\transforms\2b7bc600415213878e744c6947f9ee0a\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
